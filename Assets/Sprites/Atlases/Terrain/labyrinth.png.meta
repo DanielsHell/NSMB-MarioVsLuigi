@@ -117,7 +117,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 7}
+        - {x: 8, y: 7}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 6bf27fbaff9840d4a82f5f2d9a2e36a8
@@ -272,7 +276,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 7}
+        - {x: 8, y: 7}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 39c6bc9854aebc044bd49326afdcea47
@@ -478,7 +486,16 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: 8}
+      - - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: 825673b13ca478742a9c0152037290a6
@@ -499,7 +516,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: fe50a7f9104770f40b86aa426679b4aa
@@ -867,8 +888,8 @@ TextureImporter:
       - - {x: -8, y: 8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 1}
-        - {x: 3, y: 4}
+        - {x: 8, y: 0}
+        - {x: 1, y: 4}
         - {x: -8, y: 8}
       tessellationDetail: 0
       bones: []
@@ -891,11 +912,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 1}
+      - - {x: -8, y: 0}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: -7}
-        - {x: 3, y: -2}
+        - {x: 8, y: -8}
+        - {x: -2, y: -2}
       tessellationDetail: 0
       bones: []
       spriteID: ab3f3f7c66f5a274ea7465d6557fb20b
@@ -1246,7 +1267,7 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 2, y: -1}
+      - - {x: 2, y: -3}
         - {x: -8, y: -8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
@@ -1427,7 +1448,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 8}
+        - {x: -1, y: 2}
+        - {x: 8, y: 1}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: ed68a84f66e29e240954b58e650e1b2d
@@ -1836,7 +1862,7 @@ TextureImporter:
       physicsShape:
       - - {x: -8, y: 8}
         - {x: -8, y: 8}
-        - {x: 8, y: 8}
+        - {x: -8, y: 8}
         - {x: 8, y: 8}
         - {x: 8, y: 8}
         - {x: 8, y: 8}
@@ -2325,15 +2351,20 @@ TextureImporter:
       name: Laby_Idkwhatthisis2
       rect:
         serializedVersion: 2
-        x: 241
+        x: 240
         y: 32
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 5b16c323164e0144e964c34c29308acc
@@ -2493,7 +2524,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 900edb8cae984844599b45e771ea6dbf
@@ -2514,7 +2550,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 74db2eb91fbba754d8d2dc67a6b8b291
@@ -2535,7 +2576,13 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 7f2851b9052ee48478eb0fc740d9c7a4
@@ -2727,7 +2774,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laby_PowerupBox
+      name: Laby_PowerupBox0
       rect:
         serializedVersion: 2
         x: 16
@@ -2958,7 +3005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario1
+      name: Laby_PowerupBox1
       rect:
         serializedVersion: 2
         x: 192
@@ -2979,7 +3026,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario2
+      name: Laby_PowerupBox2
       rect:
         serializedVersion: 2
         x: 208
@@ -3000,7 +3047,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario3
+      name: Laby_PowerupBox3
       rect:
         serializedVersion: 2
         x: 224
@@ -3021,7 +3068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario4
+      name: mariosmoking
       rect:
         serializedVersion: 2
         x: 240
@@ -3032,7 +3079,21 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1, y: 7}
+        - {x: -1, y: 3}
+        - {x: -4, y: 3}
+        - {x: -5, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -4}
+        - {x: 0, y: -6}
+        - {x: 1, y: -7}
+        - {x: 3, y: -7}
+        - {x: 3, y: -1}
+        - {x: 2, y: 0}
+        - {x: 4, y: 2}
+        - {x: 4, y: 6}
+        - {x: 3, y: 7}
       tessellationDetail: 0
       bones: []
       spriteID: 0e0b64247a92eaa4987fb37c52f10f70
@@ -3059,6 +3120,7 @@ TextureImporter:
       Laby_BGchainstrip7: -827493236
       Laby_BGchainstrip20: -893182537
       Laby_Underground31: -462422910
+      Laby_PowerupBox2: 1314116086
       Laby_BGchainstrip22: 1386609113
       Laby_Brickslope4: 77285632
       Laby_BGchainstrip4: 570552472
@@ -3069,24 +3131,23 @@ TextureImporter:
       Laby_BGchainstrip17: 953247367
       Laby_Underground25: 856398585
       Laby_BGchainstrip5: 1152191581
+      Laby_PowerupBox1: 1425878115
       Laby_Brick2: 581610340
-      mario1: 1425878115
+      Laby_Floorslope2: -420604040
       Laby_Crate12: -714011313
       Laby_Underground14: -615465724
       Laby_BGchainstrip14: -301989431
       Laby_Underground33: -29615260
       Laby_BGchainstrip9: 963669024
       Laby_BGchainstrip13: -1160439395
-      Laby_PowerupBox: -97356025
+      Laby_BGchainstrip11: -1706064989
       Laby_Underground4: -191348182
       Laby_Underground1: -852203298
-      Laby_BGchainstrip11: -1706064989
-      Laby_Floorslope2: -420604040
+      Laby_LongCrate1: -1404861858
       Laby_Chain6: 1977810301
       Laby_BGchainstrip18: 361330528
       Laby_Floordeco1: 1299118046
       Laby_BGchainstrip10: -1989441335
-      Laby_LongCrate1: -1404861858
       Laby_Underground32: -1071733737
       Laby_Idkwhatthisis1: 1858823225
       Laby_BigPipe5: -879796233
@@ -3119,7 +3180,6 @@ TextureImporter:
       Laby_Underground18: -58537224
       Laby_Eyebrick2: 1537175199
       Laby_Underground29: -1172293243
-      mario2: 1314116086
       Laby_Underground27: -999373988
       Laby_Wall1: 455109353
       Laby_Ceilingslope2: -1182557726
@@ -3135,14 +3195,12 @@ TextureImporter:
       Laby_Floor1: 731852341
       Laby_Ceiling1: -84581984
       Laby_Chain1: -15913766
-      Laby_Underground19: -1467735212
-      Laby_Underground26: -466786279
-      Laby_Underground15: 143538904
       Laby_Underground5: -1854262707
+      Laby_Underground26: -466786279
+      Laby_Underground19: -1467735212
       Laby_Underground24: 1383504972
-      mario4: -893075505
+      Laby_Underground15: 143538904
       Laby_Underground13: 143570388
-      mario3: 700583057
       Laby_BGchainstrip19: -217631194
       Laby_Underground8: -1408338808
       Laby_SingleCrate: -623936325
@@ -3153,12 +3211,14 @@ TextureImporter:
       Laby_Brick1: 1654288178
       Laby_BigPipe4: -272334259
       Laby_Chain5: -1915217095
+      Laby_PowerupBox0: -97356025
       Laby_Brick3: -208282804
       Laby_Floor7: -2070857900
       Laby_EmptyBrick: 1705137856
       Laby_Underground21: -1717886672
       Laby_BGchainstrip21: -1470366739
       Laby_Eyebrick1: 419395817
+      mariosmoking: -893075505
       Laby_BGchainstrip16: 1008774773
       Laby_Ceiling2: -1777536835
       Laby_Idkwhatthisis3: 1553270489
@@ -3178,6 +3238,7 @@ TextureImporter:
       Laby_Underground30: -971566822
       Laby_Brickroofslope1: 252847013
       Laby_Chain2: -1387905931
+      Laby_PowerupBox3: 700583057
       Laby_Floorslope3: 437858693
       Laby_BGchainstrip3: -1902024024
   spritePackingTag: 
